@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:waktu/Screen/IsiData.dart';
+import 'package:waktu/Screen/GestureDetectors.dart';
+import 'package:waktu/Screen/Sizedboxscreen.dart';
 import 'package:waktu/Screen/NotifikasiScreen.dart';
 import 'package:waktu/Screen/ScrollScreen.dart';
 import 'package:waktu/Screen/Statefullw.dart';
 import 'package:waktu/Screen/TestingScreen.dart';
+import 'package:waktu/Screen/StepScreen.dart';
 import 'Screen/statelessw.dart';
 
 
@@ -39,7 +41,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         
       ),
-      home: ScrollScreen(),
+      home: StepScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
